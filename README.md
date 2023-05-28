@@ -6,17 +6,17 @@ This Django project provides an integration with Google Calendar using the OAuth
 
    ```bash
    git clone https://github.com/prathameshpatil2002/Google-Calendar-Integration-with-Django.git
-2.Configure OAuth2 Credentials:
+2. Configure OAuth2 Credentials:
 
-Go to the Google Cloud Console and create a new project or use an existing one.
-Enable the Google Calendar API for your project.
-Create OAuth2 credentials and download the JSON file.
-Save the downloaded JSON file in the project's root directory as credentials.json
+Go to the Google Cloud Console and create a new project or use an existing one.<br>
+Enable the Google Calendar API for your project.<br>
+Create OAuth2 credentials and download the JSON file.<br>
+Save the downloaded JSON file in the project's root directory as credentials.json<br>
 
 ## API Endpoints
 /rest/v1/calendar/init/: Initiates the OAuth2 authentication flow. It prompts the user for their Google credentials.
 
-/rest/v1/calendar/redirect/: Handles the redirect request sent by Google after authentication. It retrieves the access token from the provided code and fetches a list of events from the user's calendar.
+/rest/v1/calendar/redirect/: Handles the redirect request sent by Google after authentication.<br>It retrieves the access token from the provided code and fetches a list of events from the user's calendar.
 
 ## Usage
 Access the initiation endpoint in your browser:
